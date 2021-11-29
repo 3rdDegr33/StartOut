@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="./app/scss/style.css">
+
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
+
+    <title>SPEII | StartOut</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="container flex flex-jc-sb flex-ai-c">
+            <a href="/" class="header__logo">
+                <img src="./images/nav-start-out-logo-2021.png" alt="StartOut">
+            </a>
+
+            <a href="#" class="header__menu hide-for-desktop">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+
+            <div class="header__links hide-for-mobile">
+                <a href="#">About Us</a>
+                <a href="#">All Events</a>
+                <a href="#">Founders</a>
+                <a href="#">Mentors</a>
+                <a href="#">Investors</a>
+                <a href="#">News</a>
+                <a href="#">SPEII</a>
+                <a href="#">Donate</a>
+            </div>
+            
+            <a href ="#" class="button header__cta hide-for-mobile">
+                <span class="skew-fix">Take Survey</span>
+            </a>
+
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero__image"></div>
+        <div class="hero__text container">
+
+            <h1>
+                Methodology
+            </h1>
+            <p>
+                We invite all entrpreneurs with U.S. based startups to participate in a 2 - 4 minute
+                survey. 
+            </p>
+            <a href="#" class="button hero__cta">
+                <span class="skew-fix">Take Survey</span>
+            </a>
+        </div>
+    </section>
+    <p>
+        The SPEII employs a non-parametric statistical estimate of the undercount of founders.
+        It estimates a distribution over the likely number of hidden LGBTQ+ entrepreneurs in each Metro.
+        This distribution is derived from three variables:
+
+        $$ \begin{aligned} 
+           \left( pop_{\text{lgbtq}} \right )_{i} &= \text{Metro's local LGBTQ+ population} \\
+           \left( e_{\text{rate}} \right )_{i} &= \text{Metro's entrepreneurship rate} \\
+           \left( e_{\text{lgbtq}_{\text{mod}}} \right )_{i} &= \text{correction factor for LGBTQ+ entrepreneurship rates} \\
+           \end{aligned} $$
+    </p>
+    <script src="./app/js/script.js"></script>
+</body>
+
+</html>
